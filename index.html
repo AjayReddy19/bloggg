@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AJAY REDDY's BLOG</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="img/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="img/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="img/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+    </head>
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'
+    >
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px">
+            <span
+                ><a href="#home" style="display: flex; align-items: center"
+                    ><img
+                        class="img2"
+                        src="./img/mountain.png"
+                        width="40"
+                        style="margin: -25px -10px -25px -20px"
+                    />
+                    <h1 class="logo">&nbsp;Ajay's Blog</h1></a
+                ></span
+            >
+            <ul class="nav-links">
+                <li>
+                    <a href="#home" id="pri" class="active cir_border">Home</a>
+                </li>
+                <li><a href="#events" id="sec" class="cir_border">Latest Blogs</a></li>
+                <li><a href="#explore" id="sec" class="cir_border">About Me</a></li>
+                <li><a href="#contact" id="sec" class="cir_border">Contact</a></li>
+                
+                </li>
+                <li>
+                    <div>
+                        <input
+                            type="checkbox"
+                            class="checkbox dark"
+                            id="checkbox"
+                        />
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class="fa fa-sun-o"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn" />
+        </nav>
+        <!--navbar-->
+
+        <header id="home">
+            <div class="header-content">
+                <h2 id="quote"><b>WELCOME TO MY BLOG</b></h2>
+                <div class="line"></div>
+                <h1>Explore My Activities</h1>
+                <a
+                    href="#events"
+                    class="ctn"
+                    onclick='removeall(); $("#quad").css("border", "2px solid whitesmoke"); $("#quad").css("border-radius", "20px");'
+                    >Explore</a
+                >
+            </div>
+        </header>
+
+        <!--Events-->
+        <section class="events" id="events">
+            <div class="container">
+                <div class="title">
+                    <h1 class="dark">Latest Blogs</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <article class="card col">
+                        <img class="card-img" src="./img/img1.jfif" />
+                        <h4 class="dark">Cricket Gallery</h4>
+                        <p class="font-color">
+                            Cricket is a popular sport enjoyed by millions of people around the world. Visit my Latest Blog regarding ongoing test series IND vs ENG.
+                        </p>
+                        <a href="./index1.html" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/img2.jfif" />
+                        <h4 class="dark">Summer Plans</h4>
+                        <p class="font-color">
+                          This summer, I am eager to immerse myself in a variety of activities that blend relaxation and exploration. Visit following blog to know more:
+                        </p>
+                        <a href="./index2.html" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/img2.jfif" />
+                        <h4 class="dark">Vizag</h4>
+                        <p class="font-color">
+                            Vizag!!!!! The first and Memorable trip in my college life. Trip was adventurous and full of excitement.
+                            Visit my blog to know the experiences I had.
+                        </p>
+                        <a href="./index2.html" class="ctn">All Details</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--Explore-->
+        <section class="explore" id="explore">
+            <div class="explore-content">
+                <h1>About Me</h1>
+                <div class="line"></div>
+                <p>
+                    Hello, I'm Ajay Reddy, a passionate individual with a zest for life. By day, I delve into the world of technology and code, but beyond the screens, I find joy in my two favorite hobbies. As the sun sets, you'll often catch me on the cricket field, where every match is a thrilling adventure and every shot is a story. Off the field, my ears are tuned to the captivating world of podcasts. Whether it's exploring new ideas, learning from experts, or getting lost in fascinating stories, podcasts are my constant companions. Join me on this journey as I share my experiences, thoughts, and the simple pleasures that make life truly extraordinary.
+
+                </p>
+                <a href="#tours" class="ctn">Explore more</a>
+            </div>
+        </section>
+        <!--Explore-->
+
+        <!--tours-->
+        <section class="tours" id="tours">
+            <div class="container row">
+                <div class="col content-col">
+                    <h1 class="font-color"><u>HOBBIES</u></h1>
+                    <div class="line"></div>
+                    <p>
+                        Enthusiastic about cricket, whether on the field or cheering from the stands.
+A passionate traveler, exploring new horizons and cultures, creating memories through diverse experiences.
+Gaming Enthusiast, loves the competition.
+Loves to listen Music, Embracing the diverse worlds of cricket, travel, gaming, and music.
+These four passions intertwine, forming a tapestry of joy and discovery that defines the essence of my leisure.
+                    </p>
+                    <a href="#" class="ctn">Back to Home</a>
+                </div>
+                <div class="image-col">
+                    <div class="image-gallery">
+                        <img src="./img/gmng.avif" alt="" />
+                        <img src="./img/crkt2.webp" alt="" />
+                        <img src="./img/trvl.jpg" alt="" />
+                        <img src="./img/music.avif" alt="" />
+                    </div>
+                </div>
+            </div>
+            <br /><br /><br /><br />
+        </section>
+        <!--tours-->
+
+        <!-- About -->
+
+        <!-- Contributions -->
+       
+        <!-- Contributions -->
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="title">
+                <h1 class="font-color">Contact Us</h1>
+                <div class="line"></div>
+            </div>
+            <div class="contact_us">
+                <div class="cbox">
+                    <div>
+                        <p class="cbox-message">
+                           <h3 style="color: black;"> Prefer some other way ?<br />Reach us by using the
+                            details given below</h3>
+                        </p>
+                        <div class="cbox"></div>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="mailto:abc@gmail.com"
+                            ><i class="fa fa-envelope"></i>
+                            Mail: tourismwebsite@adventure.com
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="tel:+91-12345-67890"
+                            ><i class="fa fa-phone"></i>
+                            Phone: (+91) 9652681902
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="https://www.instagram.com/ajayyfinds._"
+                            ><i class="fa fa-instagram"></i>
+                            instagram: ajayyfinds._
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- contact  -->
+        <!-- up scroll -->
+        <i class="arrow"  onclick="topFunction()" id="upbtn"></i>
+        <!-- end -->
+        <!--footer-->
+        <section class="footer">
+            <span
+                >Created By AJAY REDDY| &#169; 2024 All rights
+                reserved.</span
+            >
+        </section>
+        <!--footer-->
+
+        <script>
+            const menuBtn = document.querySelector(".menu-btn");
+            const navlinks = document.querySelector(".nav-links");
+
+            menuBtn.addEventListener("click", () => {
+                navlinks.classList.toggle("mobile-menu");
+            });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
