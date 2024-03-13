@@ -100,6 +100,7 @@ html {
 
 
 
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -445,6 +446,11 @@ section {
 
 form {
   width: 50%;
+}
+
+.counter, h1{
+  display: flex;
+  justify-content: center;
 }
 
 .cbox {
